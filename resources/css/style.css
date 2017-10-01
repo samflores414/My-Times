@@ -1,3 +1,5 @@
+/*header styles*/
+
 header {
   display: flex;
   align-items: center;
@@ -26,6 +28,7 @@ header {
 
 .logo span {
   color: MediumAquamarine;
+  font-size: 14px;
 }
 
 header nav {
@@ -35,11 +38,168 @@ header nav {
 nav span {
   display: inline-block;
   padding: 20px 10px;
+  font-size: 14px;
 }
 
 a {
   color: black;
 }
 
+/*main stories styles*/
+
 .main-content {
   display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 50px;
+}
+
+.column {
+  margin-right: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.column .large {
+  width: 630px;
+}
+
+.column .medium {
+  width: 300px;
+}
+
+.column .small {
+  width: 240px;
+}
+
+/*images styles*/
+
+.lead-story .image-content {
+  background-image: url(../images/img-story-main.png);
+  height: 300px;
+  margin-top: 15px;
+}
+
+.earth .image-content {
+  background-image: url(../images/img-story-2.png);
+  height: 300px;
+  margin-top: 15px;
+}
+
+.culture .image-content {
+  background-image: url(../images/img-story-3.png);
+  height: 300px;
+  margin-top: 15px;
+}
+
+.cat .image-content {
+  background-image: url(../images/img-story-1.png);
+  height: 300px;
+  margin-top: 15px;
+}
+
+/*general story styles*/
+
+p h2{
+  font-family: Georgia;
+   font-size: 17px;
+   color: black;
+}
+
+span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+p .lead-story {
+  font-family: Georgia;
+   font-weight: bold;
+   font-size: 40px;
+   color: white;
+}
+
+.main-content {
+  display: flex;
+}
+
+.text-content {
+  justify-content: center;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-content {
+  margin: 0px 20px 0px 0px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.news-bite{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bite {
+  display: block;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
+  padding: 11px 20px;
+}
+
+/*footer styles*/
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 325px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.title {
+  display: inline-block;
+  padding-right: 25px;
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.footer nav {
+  display: inline-block;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.copyright {
+  margin-top: 10px;
+}
+
+.information {
+  display: flex;
+}
